@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace # Resource type
+metadata:
+  name: roboshop # Resource name
+  labels:
+    project: roboshop
+    environment: dev
