@@ -40,6 +40,8 @@ spec:
       containers:
       - name: catalogue
         image: manikanta1808/catalogue:1.0.0
+        imagePullPolicy: Always # safe to pull everytime, there may be images with same version rebuilt and pushed
+
         resources:
           requests:
             cpu: "100m"
