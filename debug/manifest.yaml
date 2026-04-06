@@ -4,6 +4,6 @@ metadata:
   name: debug
   namespace: roboshop
 spec:
-  container:
+  containers:
   - name: debug
     image: manikanta1808/debug:1.0.0
