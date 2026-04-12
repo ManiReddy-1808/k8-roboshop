@@ -46,6 +46,7 @@ spec:
       - name: payment
         image: manikanta1808/payment:1.2.0
         imagePullPolicy: Always # safe to pull everytime, there may be images with same version rebuilt and pushed
+        command: ["sleep", "3600"]
         resources:
           requests:
             cpu: "100m"
